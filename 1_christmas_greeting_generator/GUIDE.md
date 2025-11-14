@@ -6,7 +6,9 @@
 * How to print variables.
 
 
-## Step 1: Create a python file `greeting_generator.py``
+## Step 1: Create a File
+
+Call it `greeting_generator.py`.
 
 ## Step 2: Create a list with some holiday greetings
 
