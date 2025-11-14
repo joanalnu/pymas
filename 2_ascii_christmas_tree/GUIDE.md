@@ -1,14 +1,14 @@
 # 2. ASCII Christmas Tree 🌲⭐
 
-## What will you learn?
+## What You Will Learn
 * How to use loops
 * How to build shapes with text
 
-## Step 1 — Create the File
+## Step 1: Create the File
 
 Call it `ascii_tree.py`.
 
-## Step 2 — Ask for Tree Height
+## Step 2: Ask for Tree Height
 
 ```python
 height = int(input("How tall should your tree be? "))
@@ -16,7 +16,7 @@ height = int(input("How tall should your tree be? "))
 
 This is taking input from the user and converting the value into an integer. The default variable type delivered by `input()` is a string, not a number!
 
-## Step 3 — Build the Tree with a Loop
+## Step 3: Build the Tree with a Loop
 
 ```python
 for i in range(1, height + 1):
@@ -27,13 +27,13 @@ for i in range(1, height + 1):
 
 Can you work out home many characters are printed within this loop?
 
-## Step 4 — Add a Trunk
+## Step 4: Add a Trunk
 
 ```python
 print(" " * (height - 1) + "|")
 ```
 
-## Step 5 — Run It!
+## Step 5: Run It!
 
 Try different heights: 3, 5, 10…
 
@@ -45,7 +45,7 @@ Try different heights: 3, 5, 10…
 
 ## Advanced Tip
 
-Can you create other shapes with this technique? Maybe a snowflake
+Can you create other shapes with this technique? Maybe a snowflake...
 
 ```python
 height = int(input("How big should your snowflake be? "))

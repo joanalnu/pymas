@@ -1,6 +1,6 @@
 # 1. Christmas Greeting Generator 🎅✨
 
-## What will you learn?
+## What You Will Learn
 * How to store messages in Python **lists**
 * How to pick elements randomly.
 * How to print variables.
@@ -10,7 +10,7 @@
 
 Call it `greeting_generator.py`.
 
-## Step 2: Create a list with some holiday greetings
+## Step 2: Create a List with Some Holiday Hreetings
 
 ```python
 greetings = [
