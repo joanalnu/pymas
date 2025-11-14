@@ -1,4 +1,4 @@
-# 4. New Year Countdown 🎄⏳
+# 4. New Year Countdown 🪩⏳
 
 ## What You Will Learn
 
@@ -50,4 +50,4 @@ Can you create a code to input a date and output the remaining time in years, mo
 
 ## Want more?
 
-### Next project: [5. Snowball Gift]()
+### Next project: [5. Snowball Gift ❄️🎁](https://github.com/joanalnu/pymas/blob/main/5_snowball_gift/GUIDE.md)

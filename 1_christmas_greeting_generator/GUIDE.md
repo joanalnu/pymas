@@ -76,4 +76,4 @@ Pro: can you observe the trick used for keeping up with the frequency in the coi
 
 ## Want more?
 
-### Next project: [ASCII Christmas Tree 🌲⭐]()
+### Next project: [ASCII Christmas Tree 🌲⭐](https://github.com/joanalnu/pymas/blob/main/2_ascii_christmas_tree/GUIDE.md)

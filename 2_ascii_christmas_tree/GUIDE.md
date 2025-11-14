@@ -62,4 +62,4 @@ for i in range(-height, height + 1):
 
 ## Want more?
 
-### Next project: [3. Hot Chocolate Recipe]()
+### Next project: [3. Hot Chocolate Recipe ☕️🍫](https://github.com/joanalnu/pymas/blob/main/3_hot_chocolate_recipe/GUIDE.md)

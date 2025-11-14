@@ -1,8 +1,7 @@
-# 3. Hot Chocolate Recipe
+# 3. Hot Chocolate Recipe ☕️🍫
 
 ## What You Will Learn
 * Dictionaries in Python
-* Fractions in Python
 
 ## What You Will NOT Learn
 This is not a real recipe, don't try to prepare it!!
@@ -57,4 +56,4 @@ What if instead ingredients and quantities these were present and names... Get c
 
 ## Want more?
 
-### Next project: [4. New Year Countdown]()
+### Next project: [4. New Year Countdown 🪩⏳](https://github.com/joanalnu/pymas/blob/main/4_new_year_countdown/GUIDE.md)
