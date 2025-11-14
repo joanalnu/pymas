@@ -46,7 +46,7 @@ Question: Why isn't `cube_area` $a^3$?? What would this expression describe?
 
 Try different radiuses!
 
-## Chanllenges:
+## Chanllenges
 
 - Let the cube box have a margin?
 - How much would the snowball weight (water density is 1)?
