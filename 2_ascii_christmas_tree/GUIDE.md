@@ -21,14 +21,12 @@ for i in range(1, height + 1):
     spaces = " " * (height - i)
     stars = "*" * (2 * i - 1)
     print(spaces + stars)
-
 ```
 
 ## Step 4 — Add a Trunk
 
 ```python
 print(" " * (height - 1) + "|")
-
 ```
 
 ## Step 5 — Run It!
