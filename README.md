@@ -9,6 +9,8 @@ In this repository you will find 5 folders number 1 to 5. For example, you can d
 
 Inside each folder you will find a simple guide, clearly explaining the steps and giving ideas for further exploration and self-contained Python scripts. Non of the codes require any installed requirements besides the Python language (commonly pre-installed in modern computers).
 
+If you aren't used to git/GitHub, you can see the identical instructions and guides in this website: [PYMAS website](https://joanalnu.github.io/pymas).
+
 I wish you merry Python Christmas, (ehem pymas).
 
 ## What's inside?
