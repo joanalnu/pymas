@@ -2,15 +2,22 @@
 
 ## What You Will Learn
 * How to store messages in Python **lists**
-* How to pick elements randomly.
-* How to print variables.
+* How to pick elements randomly
+* How to print variables
 
+## Before You Start: A Quick Guide to Data Types
+
+**Variables** are like containers that hold information. In Python, different types of information need different types of containers:
+
+- **Strings**: Text surrounded by quotes (`"like this"` or `'like this'`)
+- **Integers**: Whole numbers (5, -3, 100)
+- **Lists**: Multiple items grouped together in square brackets `[item1, item2, item3]`
 
 ## Step 1: Create a File
 
 Call it `greeting_generator.py`.
 
-## Step 2: Create a List with Some Holiday Hreetings
+## Step 2: Create a List with Some Holiday Greetings
 
 ```python
 greetings = [
@@ -22,9 +29,17 @@ greetings = [
 ]
 ```
 
-Remember!: Python lists are groups of elements separated by `,` and written between `[]``. They can contain repeated elements and mixed of variable types (integers, strings, ...)
+**What's happening here?**
 
-## Step 3: Use `random.choice()` to pick one greeting
+- `greetings` = This is the **variable name** (the container's label)
+- `=` = This means "store the following information in this variable"
+- `[...]` = **Square brackets** mean we're creating a **list**
+- Each greeting is a **string** (text inside quotes)
+- `,` = **Commas** separate items in a list
+
+**Remember!**: Python lists are groups of elements separated by commas and written between `[]`. They can contain repeated elements and can mix different data types (strings, numbers, etc.).
+
+## Step 3: Use `random.choice()` to Pick One Greeting
 
 ```python
 import random
@@ -33,46 +48,45 @@ message = random.choice(greetings)
 print(message)
 ```
 
-## Step 4: Run it!
-Each time you run the program a new greeting appears!
+**What's happening here?**
+
+- `import random` = We're bringing in Python's random tool. "Import" means "grab this tool and make it available to us"
+- `random.choice(greetings)` = Pick one random item from the greetings list
+- `message =` = Store that randomly picked greeting in a variable called `message` (now it's a **string**)
+- `print(message)` = Show the message on the screen
+
+## Step 4: Run It!
+
+Each time you run the program, a new greeting appears!
 
 ## Challenges
 * Add more greetings
 * Ask the user for their name and include it in the message
 
 ## Advanced Tip
-If you are into math and really want to test whether your computer can generate randomness, you can use the random function to pick up numbers. Then you can compare the frequency of your draws with a the fliping of a coin or with a dice.
+
+If you're interested in math and probability, test whether your computer generates true randomness! You can compare the frequency of random draws with coin flips.
 
 ```python
 import random
 
-# for the coin: two possible solutions (0,1)
-frequency = 0 # to count how many heads/tails
-flips = 10 # the number of flips
+# Flip a coin 100 times and count heads
+frequency = 0  # Counter to track heads
+flips = 100  # Number of flips
+
 for i in range(flips):
-    coin = random(0,1)
-    frequency + coin
+    coin = random.choice([0, 1])  # 0 = tails, 1 = heads
+    frequency += coin  # Add 1 to frequency if it's heads
 
-# 1->heads, 0->tails
-print(f'The coin flipped {frequency} heads and {flips-frequency} tails.')
-
-# there are 6 numbers in a regular dice
-frequency = [0,0,0,0,0,0]
-for i in range(flips):
-    dice = random(1,2,3,4,5,6)
-    frequency[dice]+=1
-
-print(f'The dice flipped:')
-print(f'{frequency[1]} times 1')
-print(f'{frequency[2]} times 2')
-print(f'{frequency[3]} times 3')
-print(f'{frequency[4]} times 4')
-print(f'{frequency[5]} times 5')
-print(f'{frequency[6]} times 6')
-
+# Print the results
+heads = frequency
+tails = flips - frequency
+print(f'Heads: {heads}, Tails: {tails}')
 ```
 
-Pro: can you observe the trick used for keeping up with the frequency in the coin case?
+**What's the trick?**
+- `frequency += coin` is short for `frequency = frequency + coin`. It adds the result to our counter.
+- If you flip 100 times, you should get close to 50 heads and 50 tails (but not exactly!)
 
 ## Want more?
 
